@@ -90,10 +90,6 @@ export const skills = [
                 image:
                     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
             },
-            {
-                name: "Firebase",
-                image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-            },
         ],
     },
     {
@@ -102,12 +98,7 @@ export const skills = [
             {
                 name: "React Native",
                 image:
-                    "https://d33wubrfki0l68.cloudfront.net/554c3b0e09cf…281fda839a5433f2040b349/ecfc9/img/header_logo.svg",
-            },
-            {
-                name: "Android Studio",
-                image:
-                    "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+                    "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
             },
         ],
     },
@@ -130,11 +121,6 @@ export const skills = [
                     "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
             },
             {
-                name: "Netlify",
-                image:
-                    "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-            },
-            {
                 name: "VS Code",
                 image:
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
@@ -147,7 +133,7 @@ export const skills = [
             {
                 name: "WebStorm",
                 image:
-                    "https://upload.wikimedia.org/wikipedia/commons/thu…on.svg/512px-WebStorm_Icon.svg.png?20210315203338",
+                    "https://resources.jetbrains.com/storage/products/company/brand/logos/WebStorm_icon.png",
             },
         ],
     },
