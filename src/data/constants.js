@@ -35,6 +35,11 @@ export const skills = [
                     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAACTklEQVR4Ab1XAaQqURB9DyohSykREpRIQSAlBCoECKUFCSRCBBEAaSEABQEoCIEASCwAUICALgCo83do0//9v819XX845O7VnDkzOzP7JWGaBd3C3IJpQVjAHeJ+Rs9a97vKLGrBsB1KgMhEP3FMUUwt4ENMfxr1yQIU4SSjRkbeOZtERmHk6pXQVDlnkHh9S+QLTm1hkiz4n/gzFQuny9FoFLquE+i34x+n02k0m00UCoV3BIzn3MMJrVYLtp1OJ0cS/X4f5/MZhmG8IyDsWtDfEaDIn2232/3zbrvdxuFwwGg04qRBt+VnETBNE0IIkE2n07/erdfrWK/X6Ha73Hb9ZXII3G43ivy3dNRqtZe7lUoFs9mM6oBDwCQCgquALT1FT3a5XF7qIZ/PYzgcolqtcggIIgBZAgRKB6lCRalp2uM8k8mAVMrlchwC+DEBipycE4n5fP44j8ViKJVKSCaTbAJCpgaez4vFIsjoWa/XA50FAgEkEgmEw2F2CkxZBZ5Br5tt1ITcbjd8Ph88Hg+7CBefECCsVitS4aVJcV9D/VMCVITk/Hq9YrPZyBBo2a1YMGvAcQYcj0cCtWMugcdYNhjDiBrP25mx3++x3W6RzWZZ8isfxzQLlsslJpMJpYY5jhkqcOH1ejEYDDAej9FoNOByuZxGsfqVzC7KTqcDSkkqleKsZOqX0mAwiHK5DGrJfr+fs5SqX8sjkQji8ThCoRC+v78Za7l6JagrUh3YkUuZpqgwDaecc9VYSDoV5Fg+at7n+eLN57kuE/EvzHr/Kvs31aYAAAAASUVORK5CYII=",
             },
             {
+                name: "TypeScript",
+                image:
+                    "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+            },
+            {
                 name: "HTML",
                 image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
             },
@@ -49,14 +54,15 @@ export const skills = [
                     "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
             },
             {
-                name: "Bootstrap",
-                image:
-                    "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-            },
-            {
                 name: "Material UI",
                 image:
                     "data:image/png;base64,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",
+            },
+
+            {
+                name: "Bootstrap",
+                image:
+                    "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
             },
         ],
     },
@@ -89,6 +95,16 @@ export const skills = [
                 name: "MongoDB",
                 image:
                     "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+            },
+            {
+                name: "TypeORM",
+                image:
+                    "https://avatars.githubusercontent.com/u/20165699?s=200&v=4",
+            },
+            {
+                name: "Prisma",
+                image:
+                    "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/001/287/square_480/prismaHD.png",
             },
         ],
     },
@@ -143,10 +159,10 @@ export const experiences = [
     {
         id: 0,
         img: "data:image/jpeg;base64,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",
-        role: "Frontend Developer",
+        role: "Software Engineer",
         company: "Godel Technologies Europe",
-        date: "Aug 2022 - June 2023",
-        desc: "Working on internal projects as Developer, managing Frontend team, and streamlining the process automation.",
+        date: "Aug 2022 - Jul 2023",
+        desc: "Working on internal projects as Developer, managing Frontend team, and streamlining the process automation. I collaborated closely with cross-functional teams, including back-end developers and stakeholders, to ensure that functional requirements were meticulously met. My responsibilities encompassed gathering and translating client requirements into actionable product stories. I also took charge of developing and maintaining the front-end architecture, seamlessly integrating user interface elements in conjunction with back-end developers.",
         skills: [
             "React",
             "React Context",
@@ -159,6 +175,60 @@ export const experiences = [
             "TypeScript",
             "Docker",
             "GitLab"
+        ]
+    },
+    {
+        id: 1,
+        img: "https://media.licdn.com/dms/image/D4E0BAQHpMhTeXh1LFQ/company-logo_200_200/0/1682527756568?e=1703721600&v=beta&t=NKjtQ6mUpKBo91vtP78jaynK7EnKAATcnDvyrJ4MRAY",
+        role: "Frontend Developer",
+        company: "Dashbouquet Development",
+        date: "Mar 2021 - Apr 2022",
+        desc: "During my one-year tenure, I contributed as a Front-end Developer on diverse projects, including a form builder for a desktop application, an international cryptocurrency exchange, and a betting strategies service. My role involved implementing features, optimizing UI, and transitioning to new technologies.",
+        skills: [
+            "React",
+            "Redux-Saga",
+            "Reactstrap",
+            "Swagger",
+            "Styled-components",
+            "Sass",
+            "Storybook",
+            "Node.js",
+            "Formik",
+            "React-i18next",
+            "Bootstrap"
+        ]
+    },
+    {
+        id: 2,
+        img: "https://media.licdn.com/dms/image/C560BAQEC6m137rDqLg/company-logo_100_100/0/1534250301106?e=1703721600&v=beta&t=AumBW_kvSf1stQAIpcVBNn5ek5lGdUtmPwEsZt7us8w",
+        role: "Frontend Web Developer",
+        company: "ChainArtSoft",
+        date: "Mar 2020 - Mar 2021",
+        desc: " My responsibilities ranged from creating tables, forms, and validation schemas to refactoring complex code, simplifying component hierarchies, and extending existing features. I also provided direct client support, participated in planning and review meetings, and seamlessly integrated third-party services.",
+        skills: [
+            "React",
+            "Redux",
+            "Shopify",
+            "React-testing-library",
+            "Graph QL",
+            "Gatsby",
+            "Scss",
+            "React-transition-group",
+            "Material UI",
+        ]
+    },
+    {
+        id: 3,
+        img: "https://hh.ru/employer-logo/3711360.png",
+        role: "Software Engineer / System Administrator",
+        company: 'Health institution "Molodechno Central District Hospital"',
+        date: "Mar 2020 - Mar 2021",
+        desc: "In my dual role as a System Administrator and Software Engineer, I've excelled in configuring and troubleshooting systems, implementing upgrades, and ensuring security. As a Software Engineer, I streamlined code, enhanced user experiences, and integrated third-party services for added functionality.",
+        skills: [
+            "Javascript",
+            "CSS",
+            "Windows OS",
+            "Windows Server 2008",
         ]
     },
 ];
