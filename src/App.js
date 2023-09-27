@@ -7,6 +7,9 @@ import Skills from "./components/Skills";
 import HeroSection from "./components/HeroSection";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import ProjectDetails from "./components/ProjectDetails";
+import {useState} from "react";
 
 const Body = styled.div`
   background-color: ${({theme}) => theme.bg};
@@ -23,20 +26,29 @@ const Wrapper = styled.div`
 `
 
 function App() {
-  return (
-    <ThemeProvider theme={darkTheme}>
-        <BrowserRouter>
-            <Navbar/>
-            <Body>
-                <HeroSection />
-                <Wrapper>
-                    <Skills />
-                    <Experience />
-                    <Education />
-                </Wrapper>
-            </Body>
-        </BrowserRouter>
-    </ThemeProvider>
+    const [openModal, setOpenModal] = useState({ state: false, project: null });
+
+    return (
+      <ThemeProvider theme={darkTheme}>
+          <BrowserRouter >
+              <Navbar />
+              <Body>
+                  <HeroSection />
+                  <Wrapper>
+                      <Skills />
+                      <Experience />
+                  </Wrapper>
+                  <Projects openModal={openModal} setOpenModal={setOpenModal} />
+                  <Wrapper>
+                      <Education />
+                  </Wrapper>
+
+                  {openModal.state &&
+                      <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+                  }
+              </Body>
+          </BrowserRouter>
+      </ThemeProvider>
   );
 }
 
