@@ -11,7 +11,7 @@ export const Bio = {
     github: "https://github.com/AgentRa",
     resume:
         "https://drive.google.com/file/d/1IE-9isHy7PjmOn5y1BmIqYpDsGvUd1sd/view?usp=sharing",
-    linkedin: "https://www.linkedin.com/in/aliaksandr-r-17a7bb198/",
+    linkedin: "https://www.linkedin.com/in/alexander-r-17a7bb198/",
     telegram: "https://t.me/agent_sun",
 };
 
@@ -252,4 +252,18 @@ export const educations = [
     }
 ];
 
-export const projects = [];
+export const projects = [
+    {
+        id: 7,
+        title: "Quiz App",
+        date: "Dec 2020 - Jan 2021",
+        description:
+            "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
+        image:
+            "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
+        tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
+        category: "android app",
+        github: "https://github.com/rishavchanda/Quiz-Earn",
+        webapp: "https://github.com/rishavchanda/Quiz-Earn",
+    },
+];

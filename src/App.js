@@ -7,9 +7,10 @@ import Skills from "./components/Skills";
 import HeroSection from "./components/HeroSection";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
-import Projects from "./components/Projects";
 import ProjectDetails from "./components/ProjectDetails";
 import {useState} from "react";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 const Body = styled.div`
   background-color: ${({theme}) => theme.bg};
@@ -38,10 +39,12 @@ function App() {
                       <Skills />
                       <Experience />
                   </Wrapper>
-                  <Projects openModal={openModal} setOpenModal={setOpenModal} />
+                  {/*<Projects openModal={openModal} setOpenModal={setOpenModal} />*/}
                   <Wrapper>
                       <Education />
+                      <Contact />
                   </Wrapper>
+                  <Footer />
 
                   {openModal.state &&
                       <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
