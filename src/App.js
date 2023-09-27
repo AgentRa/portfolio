@@ -31,8 +31,8 @@ function App() {
                 <HeroSection />
                 <Wrapper>
                     <Skills />
-                    <Education />
                     <Experience />
+                    <Education />
                 </Wrapper>
             </Body>
         </BrowserRouter>
