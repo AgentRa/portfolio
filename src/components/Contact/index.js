@@ -1,7 +1,7 @@
 import React from 'react';
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { Snackbar } from '@mui/material';
+import { Alert, Snackbar } from '@mui/material';
 import {
   ContactButton,
   ContactForm,
@@ -49,11 +49,13 @@ const Contact = () => {
         </ContactForm>
         <Snackbar
           open={open}
-          autoHideDuration={6000}
+          autoHideDuration={60000}
           onClose={() => setOpen(false)}
-          message="Email sent successfully!"
           severity="success"
-        />
+          sx={{ top: '0' }}
+        >
+          <Alert severity={'success'}>Email sent successfully!</Alert>
+        </Snackbar>
       </Wrapper>
     </Container>
   );

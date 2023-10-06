@@ -113,6 +113,14 @@ export const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+
+  &:hover {
+    cursor: pointer;
+    background: linear-gradient(225deg, hsla(271, 100%, 50%, 0.8) 0%, hsla(294, 100%, 50%, 0.8) 100%);
+    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 0.8) 0%, hsla(294, 100%, 50%, 0.8) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 0.8) 0%, hsla(294, 100%, 50%, 0.8) 100%);
+    box-shadow: 20px 20px 60px #1f2634;
+  }
 `;
 
 export const Link = styled.a`
