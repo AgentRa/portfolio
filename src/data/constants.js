@@ -41,13 +41,14 @@ import {
 } from '../images';
 
 export const Bio = {
-  name: 'Alexander Razhechkin',
+  name: 'Alex Razhechkin',
   roles: ['Front End Developer', 'Back End Developer', 'Full Stack Developer', 'Programmer'],
   description:
-    'I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.',
-  resume: 'https://drive.google.com/file/d/1IE-9isHy7PjmOn5y1BmIqYpDsGvUd1sd/view?usp=sharing',
-  linkedin: 'https://www.linkedin.com/in/alexander-r-17a7bb198/',
+    'With over 5 years of experience in software development, I am a motivated and versatile individual, always eager to take on new challenges. Holding a Bachelor\'s degree in Computer Science and Engineering from the Faculty of Radiophysics and Computer Technologies, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things. Currently located in Wrocław, Poland, I look forward to the opportunities ahead.',
+  resume: 'https://drive.google.com/file/d/1UGFCZX2xxm-xz4YaD1t5AljPwqrrJS-M/view',
+  linkedin: 'https://www.linkedin.com/in/sanyara/',
   telegram: 'https://t.me/agent_sun',
+  github: 'https://github.com/AgentRa',
 };
 
 export const skills = [
