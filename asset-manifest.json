@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/portfolio/static/js/main.6c52f243.js",
+    "main.js": "/portfolio/static/js/main.f1397955.js",
     "static/media/form-builder-app.gif": "/portfolio/static/media/form-builder-app.298680b645e59e7bd468.gif",
     "static/media/godel-human-resources.png": "/portfolio/static/media/godel-human-resources.b88d36827c7d817733b1.png",
     "static/media/webstorm-logo.png": "/portfolio/static/media/webstorm-logo.9fdecd117c4cf9a159a0.png",
@@ -36,10 +36,10 @@
     "static/media/git-logo.svg": "/portfolio/static/media/git-logo.6d27b5e0cde4ddb87e031ca706aa8350.svg",
     "static/media/react-logo.svg": "/portfolio/static/media/react-logo.3a03708e42481565259f85329d20b695.svg",
     "main.bf538fe7.css.map": "/portfolio/static/css/main.bf538fe7.css.map",
-    "main.6c52f243.js.map": "/portfolio/static/js/main.6c52f243.js.map"
+    "main.f1397955.js.map": "/portfolio/static/js/main.f1397955.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.6c52f243.js"
+    "static/js/main.f1397955.js"
   ]
 }
