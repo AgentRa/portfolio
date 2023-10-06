@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/react-portfolio/static/js/main.05df0eb1.js",
+    "main.js": "/react-portfolio/static/js/main.5ce144cf.js",
     "static/media/form-builder-app.gif": "/react-portfolio/static/media/form-builder-app.298680b645e59e7bd468.gif",
     "static/media/godel-human-resources.png": "/react-portfolio/static/media/godel-human-resources.b88d36827c7d817733b1.png",
     "static/media/webstorm-logo.png": "/react-portfolio/static/media/webstorm-logo.9fdecd117c4cf9a159a0.png",
@@ -36,10 +36,10 @@
     "static/media/git-logo.svg": "/react-portfolio/static/media/git-logo.6d27b5e0cde4ddb87e031ca706aa8350.svg",
     "static/media/react-logo.svg": "/react-portfolio/static/media/react-logo.3a03708e42481565259f85329d20b695.svg",
     "main.bf538fe7.css.map": "/react-portfolio/static/css/main.bf538fe7.css.map",
-    "main.05df0eb1.js.map": "/react-portfolio/static/js/main.05df0eb1.js.map"
+    "main.5ce144cf.js.map": "/react-portfolio/static/js/main.5ce144cf.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.05df0eb1.js"
+    "static/js/main.5ce144cf.js"
   ]
 }
