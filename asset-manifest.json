@@ -1,17 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/portfolio/static/js/main.f1397955.js",
+    "main.js": "/portfolio/static/js/main.49b21751.js",
     "static/media/form-builder-app.gif": "/portfolio/static/media/form-builder-app.298680b645e59e7bd468.gif",
     "static/media/godel-human-resources.png": "/portfolio/static/media/godel-human-resources.b88d36827c7d817733b1.png",
     "static/media/webstorm-logo.png": "/portfolio/static/media/webstorm-logo.9fdecd117c4cf9a159a0.png",
     "static/media/member-ksenia.jpg": "/portfolio/static/media/member-ksenia.e2a3e3b7f6e3bdcb71a6.jpg",
     "static/media/member-sergey.jpg": "/portfolio/static/media/member-sergey.fc1998a66ca813164d66.jpg",
+    "static/media/karolinamember.jpeg": "/portfolio/static/media/karolinamember.796cda8743fd1c60cf2f.jpeg",
     "static/media/godel-vacation-tracker-2.jpg": "/portfolio/static/media/godel-vacation-tracker-2.f37f764d1b164ba65b03.jpg",
     "static/media/member-krzysztof.jpg": "/portfolio/static/media/member-krzysztof.9b4ef6634ecae99b6953.jpg",
     "static/media/godel-vacation-tracker.jpg": "/portfolio/static/media/godel-vacation-tracker.8b1ad97367cfdd3acb64.jpg",
     "static/media/member-veranika.jpg": "/portfolio/static/media/member-veranika.51dcf4c5d8df0b8ffa74.jpg",
+    "static/media/sapience.jpg": "/portfolio/static/media/sapience.bbaee543c35da21d190e.jpg",
     "static/media/member-tovstik.jpg": "/portfolio/static/media/member-tovstik.33353326c63b35bc509a.jpg",
+    "static/media/mateuszw.jpeg": "/portfolio/static/media/mateuszw.d6d1ce8668e3c4af2688.jpeg",
     "static/media/member-pilik.jpg": "/portfolio/static/media/member-pilik.e742af9c116f3afa45f8.jpg",
     "static/media/postman-logo.png": "/portfolio/static/media/postman-logo.f67f2e4a0711bbc15fed.png",
     "static/media/me.jpg": "/portfolio/static/media/me.15d8ab916737778da529.jpg",
@@ -19,6 +22,7 @@
     "static/media/CSS3-logo.png": "/portfolio/static/media/CSS3-logo.2145bb6c7160a7e0d8ab.png",
     "static/media/postgre-logo.png": "/portfolio/static/media/postgre-logo.52d31cc1fd8306d5ff52.png",
     "static/media/bootstrap-logo.png": "/portfolio/static/media/bootstrap-logo.bb9b9d749d40e498f714.png",
+    "static/media/memberjakub.jpeg": "/portfolio/static/media/memberjakub.0a93a300fe9f49855773.jpeg",
     "static/media/typescript-logo.png": "/portfolio/static/media/typescript-logo.52ea0bc40ba11d507e7d.png",
     "static/media/rss-logo.svg": "/portfolio/static/media/rss-logo.ae959fe2f5d7ddb0a5452232bb6898f6.svg",
     "static/media/vsCode-logo.png": "/portfolio/static/media/vsCode-logo.872047edeb82624ea0bb.png",
@@ -36,10 +40,10 @@
     "static/media/git-logo.svg": "/portfolio/static/media/git-logo.6d27b5e0cde4ddb87e031ca706aa8350.svg",
     "static/media/react-logo.svg": "/portfolio/static/media/react-logo.3a03708e42481565259f85329d20b695.svg",
     "main.bf538fe7.css.map": "/portfolio/static/css/main.bf538fe7.css.map",
-    "main.f1397955.js.map": "/portfolio/static/js/main.f1397955.js.map"
+    "main.49b21751.js.map": "/portfolio/static/js/main.49b21751.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.f1397955.js"
+    "static/js/main.49b21751.js"
   ]
 }
