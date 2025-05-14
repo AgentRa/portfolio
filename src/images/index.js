@@ -39,6 +39,11 @@ import MemberKrzysztof from './member-krzysztof.jpg';
 import MemberTovstik from './member-tovstik.jpg';
 import MemberKsenia from './member-ksenia.jpg';
 import MemberSergey from './member-sergey.jpg';
+import MemberJakub from './memberjakub.jpeg';
+import MemberKarolina from './karolinamember.jpeg';
+import MemberMateusz from './mateuszw.jpeg';
+import FactorySapience from './sapience.jpg'
+import KelltonLogo from './kellton_logo.jpeg'
 
 export {
   BootstrapLogo,
@@ -82,4 +87,9 @@ export {
   DashFormBuilder,
   MemberKsenia,
   MemberSergey,
+  MemberJakub,
+  MemberKarolina,
+  MemberMateusz,
+  FactorySapience,
+  KelltonLogo
 };
