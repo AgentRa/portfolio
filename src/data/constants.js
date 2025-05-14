@@ -38,6 +38,11 @@ import {
   DashFormBuilder,
   MemberKsenia,
   MemberSergey,
+  MemberJakub,
+  MemberKarolina,
+  MemberMateusz,
+  FactorySapience,
+  KelltonLogo
 } from '../images';
 
 export const Bio = {
@@ -45,7 +50,7 @@ export const Bio = {
   roles: ['Front End Developer', 'Back End Developer', 'Full Stack Developer', 'Programmer'],
   description:
     'With over 5 years of experience in software development, I am a motivated and versatile individual, always eager to take on new challenges. Holding a Bachelor\'s degree in Computer Science and Engineering from the Faculty of Radiophysics and Computer Technologies, I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things. Currently located in Wrocław, Poland, I look forward to the opportunities ahead.',
-  resume: 'https://drive.google.com/file/d/1UGFCZX2xxm-xz4YaD1t5AljPwqrrJS-M/view',
+  resume: 'https://drive.google.com/file/d/1JFm-QSoWXLQ8Tginc5oH4y3F7tbe_BVk/view?usp=drive_link',
   linkedin: 'https://www.linkedin.com/in/sanyara/',
   telegram: 'https://t.me/agent_sun',
   github: 'https://github.com/AgentRa',
@@ -174,6 +179,29 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: KelltonLogo,
+    role: 'Frontend Developer',
+    company: 'Kellton Europe',
+    date: 'Jan 2024 - Oct 2024',
+    desc: 'As a Front-End Developer, I collaborated with cross-functional teams to execute external projects. I translated client requirements into product stories, developed and maintained frontend architecture, and integrated UI elements with backend systems. Additionally, I conducted research and authored an article on front-end development topics, contributing to the team\'s knowledge base and best practices',
+    skills: [
+      'React',
+      'react-hook-form',
+      'react-use',
+      'Sass',
+      'Storybook',
+      'Node.js',
+      'TypeScript',
+      'Docker',
+      'GitLab',
+      'Azure',
+      'Vite',
+      'Vitest',
+      'MWS'
+    ],
+  },
+  {
+    id: 1,
     img: GodelLogo,
     role: 'Software Engineer',
     company: 'Godel Technologies Europe',
@@ -194,7 +222,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     img: DashLogo,
     role: 'Frontend Developer',
     company: 'Dashbouquet Development',
@@ -215,7 +243,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: ChainLogo,
     role: 'Frontend Web Developer',
     company: 'ChainArtSoft',
@@ -234,7 +262,7 @@ export const experiences = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     img: MolcrbLogo,
     role: 'Software Engineer / System Administrator',
     company: 'Health institution "Molodechno Central District Hospital"',
@@ -266,6 +294,38 @@ export const educations = [
 export const projects = [
   {
     id: 0,
+    title: 'Factory management system',
+    date: 'Jan 2024- Jun 2024',
+    description:
+      'The Factory Management System is a comprehensive web application designed to streamline the management and monitoring of factory operations. This innovative system enables real-time tracking, oversight, and optimization of various factory processes, ensuring efficient and productive workflows. By integrating advanced data analytics, automation, and user-friendly interfaces, FMS provides a holistic solution to factory management challenges.',
+    image: FactorySapience,
+    tags: ['React', 'Vite', 'Vitest', 'react-hook-form', 'react-testing-library', 'Data visualisation'],
+    category: 'web app',
+    github: null,
+    webapp: null,
+    members: [
+      {
+        name: 'Jakub Szewczyk',
+        img: MemberJakub,
+        linkedin: 'https://www.linkedin.com/in/jakub-szewczyk/',
+        position: 'Frontend Developer, Team Leader',
+      },
+      {
+        name: 'Karolina Śliwińska',
+        img: MemberKarolina,
+        linkedin: 'https://www.linkedin.com/in/karolina-%C5%9Bliwi%C5%84ska-93907957/',
+        position: 'Project Manager',
+      },
+      {
+        name: 'Mateusz W',
+        img: MemberMateusz,
+        linkedin: 'https://www.linkedin.com/in/mateusz-w-b49a34185/',
+        position: 'Frontend Developer',
+      },
+    ],
+  },
+  {
+    id: 1,
     title: 'Vacation Tracker Portal',
     date: 'Jan 2023- Jun 2023',
     description:
@@ -309,7 +369,7 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     title: 'Human Resources Portal',
     date: 'Aug 2022- Apr 2023',
     description:
@@ -353,7 +413,7 @@ export const projects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: 'Form builder for Emergency Desktop App',
     date: 'Sep 2021- Jan 2022',
     description:
